@@ -1,0 +1,22 @@
+
+
+1)GET
+http://localhost:8080/dbDemo/getAllUsers
+
+http://localhost:8080/dbDemo/getUserById/88
+
+2)POST
+http://localhost:8080/dbDemo/createUser
+
+{
+    "name":"gundeep",
+    "age":"29",
+    "email":"gundeep.kaur@lngconsultancy.co.in",
+    "country":"India"
+}
+
+3)DELETE
+http://localhost:8080/dbDemo/deleteById/88
+
+4)UPDATE
+http://localhost:8080/dbDemo/update/88
