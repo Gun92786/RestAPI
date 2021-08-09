@@ -1,0 +1,12 @@
+1)POST
+http://localhost:8080/assignment2/processFile
+
+Body:
+{
+  "filePath":"C:\\Users\\Dell\\Downloads\\assignment2\\src\\main\\resources\\TestData.csv"
+}
+
+2)GET
+http://localhost:8080/assignment2/getDetails?mobileNo=9774361234
+
+http://localhost:8080/assignment2/getDetails?name=Amar&email=Amar@gmail.com
